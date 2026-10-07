@@ -69,7 +69,7 @@ end
 
 -- ═══ GUI ═══
 local gui = Instance.new("ScreenGui")
-gui.Name = "KuKemPremium"
+gui.Name = "🧸KuKemPremium👽"
 gui.ResetOnSpawn = false
 gui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 gui.IgnoreGuiInset = true
@@ -80,7 +80,7 @@ local FloatBtn = Instance.new("TextButton")
 FloatBtn.Size = UDim2.new(0, 52, 0, 52)
 FloatBtn.Position = UDim2.new(0, 20, 0.5, -26)
 FloatBtn.BackgroundColor3 = P.panel
-FloatBtn.Text = "✦"
+FloatBtn.Text = "🔫"
 FloatBtn.TextColor3 = P.accent
 FloatBtn.TextSize = 26
 FloatBtn.Font = Enum.Font.GothamBlack
@@ -160,7 +160,7 @@ local Title = Instance.new("TextLabel")
 Title.Size = UDim2.new(1, -90, 0, 24)
 Title.Position = UDim2.new(0, 14, 0, 6)
 Title.BackgroundTransparency = 1
-Title.Text = "✦ KuKemPremium ✦"
+Title.Text = "💥 KuKemPremium 🔫"
 Title.TextColor3 = P.txt
 Title.Font = Enum.Font.GothamBlack
 Title.TextSize = 18
@@ -172,7 +172,7 @@ local Sub = Instance.new("TextLabel")
 Sub.Size = UDim2.new(1, -90, 0, 16)
 Sub.Position = UDim2.new(0, 14, 0, 30)
 Sub.BackgroundTransparency = 1
-Sub.Text = "PvP Aimbot · ESP"
+Sub.Text = "PvP Aimbot🫀 · ESP👁️"
 Sub.TextColor3 = P.dim
 Sub.Font = Enum.Font.Gotham
 Sub.TextSize = 10
@@ -197,7 +197,7 @@ local CloseB = Instance.new("TextButton")
 CloseB.Size = UDim2.new(0, 30, 0, 30)
 CloseB.Position = UDim2.new(1, -38, 0, 11)
 CloseB.BackgroundColor3 = P.hi
-CloseB.Text = "✕"
+CloseB.Text = "💔"
 CloseB.TextColor3 = P.accent
 CloseB.Font = Enum.Font.GothamBlack
 CloseB.TextSize = 16
@@ -738,9 +738,9 @@ local function validateTarget(p)
 end
 
 -- ═══ BUILD UI ═══
-local aimP = addTab("AIM", "🎯 AIM")
-local espP = addTab("ESP", "👁️ ESP")
-local chkP = addTab("CHECK", "🛡️ CHECK")
+local aimP = addTab("AIM", "🎯 AIM🔫")
+local espP = addTab("ESP", "👁️ ESP🫀")
+local chkP = addTab("CHECK", "🛡️ CHECK📷")
 local infoP = addTab("INFO", "ℹ️")
 
 section(aimP, "AIMBOT")
